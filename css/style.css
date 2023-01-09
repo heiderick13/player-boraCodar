@@ -88,3 +88,14 @@ body {
 .bottom-right {
   grid-column: 7;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 2.5rem 1rem;
+  }
+  .container {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+  }
+}
